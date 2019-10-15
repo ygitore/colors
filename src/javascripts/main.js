@@ -1,4 +1,7 @@
 import '../styles/main.scss';
+import arrayMethods from './arrayMethods';
 
-
-console.log('hi');
+const init = () => {
+  arrayMethods.init();
+};
+init();
